@@ -7,6 +7,7 @@ function validarCredenciales() {
 
     if(user === username && pass === password){
         alert('Inicio de sesión exitoso.')
+        window.location = "file:///admin/index.html"
     }else{
         alert('Usuario y/o clave errados.')
     }
